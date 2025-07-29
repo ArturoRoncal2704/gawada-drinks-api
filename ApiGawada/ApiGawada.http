@@ -1,0 +1,6 @@
+@ApiGawada_HostAddress = http://localhost:5164
+
+GET {{ApiGawada_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
