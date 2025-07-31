@@ -15,10 +15,11 @@ namespace ApiGawada.Models
         [Required]
         public string ContrasenaHash { get; set; }
         public string? Celular { get; set; }
-    
+
         [Required]
         public string Rol { get; set; } // "User" o "Admin"
         public DateTime FechaRegistro { get; set; }
         public ICollection<Pedido>? Pedidos { get; set; }
 
     }
+}
